@@ -22,3 +22,5 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: echo "Hello"
+    - run: Write-Host "This step runs in PowerShell"
+      shell: powershell
