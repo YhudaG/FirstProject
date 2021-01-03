@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps:
       - shell: bash
